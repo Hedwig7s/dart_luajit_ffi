@@ -17,8 +17,8 @@ version `5.4` is currently supported here
 ```dart
 import 'dart:ffi';
 
-import 'package:dart_lua_ffi/dart_lua_ffi.dart';
-import 'package:dart_lua_ffi/generated_bindings.dart';
+import 'package:dart_luajit_ffi/dart_luajit_ffi.dart';
+import 'package:dart_luajit_ffi/generated_bindings.dart';
 import 'package:ffi/ffi.dart';
 
 const dartPrintPrefix = "dartLog: ";

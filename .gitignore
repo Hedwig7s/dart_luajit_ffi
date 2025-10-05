@@ -12,4 +12,5 @@ pubspec.lock
 
 # ignore lua dll 
 
-**/assets/lua*.dll
+**/assets/liblua*.dll
+**/assets/liblua*.so

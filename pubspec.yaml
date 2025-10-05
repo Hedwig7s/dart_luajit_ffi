@@ -1,7 +1,7 @@
-name: dart_lua_ffi
+name: dart_luajit_ffi
 description: dart use ffi call lua5.4
-version: 0.2.0
-repository: https://github.com/Hedwig7s/dart_lua_ffi
+version: 0.1.0
+repository: https://github.com/Hedwig7s/dart_luajit_ffi
 environment:
     sdk: '>=3.8.0 <4.0.0'
 
@@ -19,3 +19,6 @@ ffigen:
             - "c_header/lua.h"
             - "c_header/lualib.h"
     name: LuaFFIBind
+    compiler-opts:
+        - '-I/usr/include'
+        - '-I/usr/lib/clang/20/include'
